@@ -1,0 +1,344 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&display=swap" rel="stylesheet">
+
+  <!--fontawesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--style-->
+  <link href="/public/style.css" rel="stylesheet">
+</head>
+<body>
+ <header class="uppercase bg-black text-gray-400">
+    <div class="container space-x-8 flex justify-between items-center py-4">
+       
+        <h1 class="font-bold text-2xl text-transparent bg-gradient-to-r bg-clip-text from-orange-600 to-zinc-400 font-gemunu">seven</h1>
+          <!--menu-->
+        <nav class="flex flex-1 space-x-8 justify-between items-center">
+          
+            <div class="space-x-4 ">
+                <a href="#" class=" hover:text-orange-600 transition duration-500">anasayfa</a>
+                <a href="#" class=" hover:text-orange-600 transition duration-500">anasayfa</a>
+                <a href="#" class=" hover:text-orange-600 transition duration-500">anasayfa</a>
+                <a href="#" class=" hover:text-orange-600 transition duration-500">anasayfa</a>
+                <a href="#" class=" hover:text-orange-600 transition duration-500">anasayfa</a>
+            </div>
+            <!--search-->
+            <div class="flex flex-1 space-x-2 justify-end">
+                
+                <div class=" flex border-r-2 border-orange-600 opacity-50 ">
+                    <form action="" > 
+                        <input type="text" class="hidden lg:border-b-2 border-orange-600 opacity-50 bg-transparent focus:outline-none w-40">
+                        <i class="fa-regular fa-magnifying-glass pr-2"></i>
+                    </form>
+                </div>
+                <div> 
+                <a href="#" class="py-3 px-5 whitespace-nowrap">sing in</a>
+                <button class="bg-orange-600  px-5 rounded-sm uppercase">login</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+ </header>
+ <!--hero-->
+ <section class="h-128 group relative">
+    <img class="w-full h-full object-cover" src="./img/2.jpg" alt="">
+    <div class="bg-gradient-to-b from-transparent to-black w-full absolute bottom-0">
+        <div class="container lg:container uppercase">
+            <h3 class="group-hover:mb-1 duration-500 text-yellow-200 tracking-wider ">trailer</h3>
+            <h1 class="group-hover:mb-1 duration-500 font-gemunu text-orange-600 font-bolder text-6xl"> the dark knight</h1>
+            <p class="group-hover:mb-2 duration-500 lowercase text-white w-2/3 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo laborum ea in enim asperiores nostrum omnis. 
+                Eligendi, dignissimos! Nam, vitae! Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <!--buttons-->
+            <div class=" opacity-0 group-hover:opacity-100 group-hover:mb-20 duration-500">
+                <div class="flex space-x-4 items-center">
+                    <a href="#"> <h1 class="text-white hover:text-red-600">watch trailer</h1></a>
+                    <div class="flex w-8 h-8 items-center text-center justify-center text-white bg-red-600 rounded-full">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <a href="#"> <h1 class="text-white hover:text-red-600">watch trailer</h1></a>
+                    <div class="flex w-8 h-8 items-center text-center justify-center text-white bg-red-600 rounded-full">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                </div>
+        </div>
+    </div>
+ </section>
+ <!--movies-->
+ <section class="bg-black text-white pb-20 ">
+    <div class="container flex gap-6">
+        <div class="flex basis-2/3 flex-col">
+            <!--movies header-->
+            <div class="flex p-6 space-x-4">
+                <a href="#"> <h4 class="text-red-600 duration-500">movies</h4></a>
+                <a href="#"> <h4 class="hover:text-red-600 duration-500">popular</h4></a>
+                <a href="#"> <h4 class="hover:text-red-600 duration-500">best</h4></a>
+            </div>
+            <!--movies-->
+            <div class="flex w-full flex-wrap">
+                <div class="group basis-1/3 relative overflow-hidden">
+                <img class=" w-full h-72 group-hover:scale-150 group-hover:opacity-50 duration-500" src="./img/1.jpg" alt="">
+                <!--movies text-->
+                <div class="absolute bottom-0 p-4 ">
+                    <h4 class="group-hover:mb-1 duration-500">renklerin dansı1</h4>
+                    <p class="group-hover:mb-1 duration-500 text-xs hidden group-hover:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aliquam, veniam?</p>
+                </div>
+                </div>
+                <div class="group basis-1/3 relative overflow-hidden">
+                    <img class=" w-full h-72 group-hover:scale-150 group-hover:opacity-50 duration-500" src="./img/2.jpg" alt="">
+                    <!--movies text-->
+                    <div class="absolute bottom-0 p-4 ">
+                        <h4 class="group-hover:mb-1 duration-500">renklerin dansı2</h4>
+                        <p class="group-hover:mb-1 duration-500 text-xs hidden group-hover:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Aliquam, veniam?</p>
+                    </div>
+                    </div>
+                    <div class="group basis-1/3 relative overflow-hidden">
+                        <img class=" w-full h-72 group-hover:scale-150 group-hover:opacity-50 duration-500" src="./img/3.jpg" alt="">
+                        <!--movies text-->
+                        <div class="absolute bottom-0 p-4 ">
+                            <h4 class="group-hover:mb-1 duration-500">renklerin dansı3</h4>
+                            <p class="group-hover:mb-1 duration-500 text-xs hidden group-hover:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Aliquam, veniam?</p>
+                        </div>
+                        </div>
+                        <div class="group basis-1/3 relative overflow-hidden">
+                            <img class=" w-full h-72 group-hover:scale-150 group-hover:opacity-50 duration-500" src="./img/4.jpg" alt="">
+                            <!--movies text-->
+                            <div class="absolute bottom-0 p-4 ">
+                                <h4 class="group-hover:mb-1 duration-500">renklerin dansı4</h4>
+                                <p class="group-hover:mb-1 duration-500 text-xs hidden group-hover:block">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Aliquam, veniam?</p>
+                            </div>
+                            </div>
+                            <div class="group basis-1/3 relative overflow-hidden">
+                                <img class=" w-full h-72 group-hover:scale-150 group-hover:opacity-50 duration-500" src="./img/2.jpg" alt="">
+                                <!--movies text-->
+                                <div class="absolute bottom-0 p-4 ">
+                                    <h4 class="group-hover:mb-1 duration-500">renklerin dansı5</h4>
+                                    <p class="group-hover:mb-1 duration-500 text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Aliquam, veniam?</p>
+                                </div>
+                                </div>
+                                <div class="group basis-1/3 relative overflow-hidden">
+                                    <img class=" w-full h-72 group-hover:scale-150 group-hover:opacity-50 duration-500" src="./img/2.jpg" alt="">
+                                    <!--movies text-->
+                                    <div class="absolute bottom-0 p-4 ">
+                                        <h4 class="group-hover:mb-1 duration-500">renklerin dansı6</h4>
+                                        <p class="group-hover:mb-1 duration-500 text-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Aliquam, veniam?</p>
+                                    </div>
+                                    </div>
+            </div>
+            
+        </div>
+        <!--aside side-->
+        <div class="flex basis-1/3 p-6 flex-col">
+            <h4 class="pb-6 hover:text-red-600">hot news</h4>
+            <!--news-->
+            <div class="flex">
+                <img class="w-1/2 " src="./img/2.jpg" alt="">
+                <!--news header-->
+                <div class="pl-3">
+                    <h5>writer 1</h5>
+                    <p class=" text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    </p>
+                    <div class="text-xs pt-2 text-right">12/02/2000</div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <img class="w-1/2 " src="./img/2.jpg" alt="">
+                <!--news header-->
+                <div class="pl-3">
+                    <h5>writer 2</h5>
+                    <p class=" text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    </p>
+                    <div class="text-xs pt-2 text-right">12/02/2000</div>
+                </div>
+            </div>
+            <div class="flex">
+                <img class="w-1/2 " src="./img/2.jpg" alt="">
+                <!--news header-->
+                <div class="pl-3">
+                    <h5>writer 3</h5>
+                    <p class=" text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    </p>
+                    <div class="text-xs pt-2 text-right">12/02/2000</div>
+                </div>
+            </div>
+            <div class="flex">
+                <img class="w-1/2 " src="./img/2.jpg" alt="">
+                <!--news header-->
+                <div class="pl-3">
+                    <h5>writer 4</h5>
+                    <p class=" text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    </p>
+                    <div class="text-xs pt-2 text-right">12/02/2000</div>
+                </div>
+            </div>
+            <div class="flex">
+                <img class="w-1/2 " src="./img/2.jpg" alt="">
+                <!--news header-->
+                <div class="pl-3">
+                    <h5>writer 5</h5>
+                    <p class=" text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    </p>
+                    <div class="text-xs pt-2 text-right">12/02/2000</div>
+                </div>
+            </div>
+            <div class="flex">
+                <img class="w-1/2 " src="./img/2.jpg" alt="">
+                <!--news header-->
+                <div class="pl-3">
+                    <h5>writer 6</h5>
+                    <p class=" text-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    </p>
+                    <div class="text-xs pt-2 text-right">12/02/2000</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+ </section>
+  <!--matrix area-->
+  <section>
+    
+    <div class="container flex items-center relative ">
+
+        <div class="flex w-20 h-20 bg-red-600 rounded-full text-center items-center justify-center  absolute -mt-80 -ml-10"> 
+            <span class="-rotate-45 text-lg">coming soon!</span>
+        </div>
+
+        <div class="flex basis-1/2">
+            <img class="w-full" src="./img/2.jpg" alt="">
+        </div>
+        <div class="flex basis-1/2 flex-col p-10 ">
+            <h5 class="mb-2">trailer</h5>
+            <h3 class="mb-2 text-3xl">matrix reloaded</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quos. Doloribus libero dolorem 
+                dolores voluptatum soluta tempore possimus. Quidem, ullam.</p>
+        </div>
+    </div>
+
+
+  </section>
+  <!--popular post area-->
+  <section class="bg-black text-white">
+    <div class="container py-20 grid">
+        <h2 class="text-lg mb-4">popular posts</h2>
+        <div class="grid grid-cols-6 gap-10 ">
+
+            <div class="grid col-span-3 border border-red-600 py-3 px-2">
+                <div class="flex justify-between border-b  border-red-600">
+                    <h5 class=" pb-2 mb-2">Lorem ipsum dolor sit amet</h5>
+                    <img class="w-8 h-8 rounded-full " src="./img/2.jpg" alt="">
+                </div>
+                
+                <p class="border-b border-red-600 pb-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo nemo voluptate
+                     eveniet aliquid nobis at sed cupiditate minima nesciunt?</p>
+                <div class="flex justify-end space-x-4 text-xs">
+                    <span> Dec 12 2023</span>
+                    <p><i class="fa-light fa-messages pr-2"></i>12</p>
+                    <p><i class="fa-regular fa-heart pr-2"></i>95</p>
+                </div>
+            </div>
+
+             <div class="grid col-span-3 border border-red-600 py-3 px-2">
+                <div class="flex justify-between border-b  border-red-600">
+                    <h5 class=" pb-2 mb-2">Lorem ipsum dolor sit amet</h5>
+                    <img class="w-8 h-8 rounded-full " src="./img/2.jpg" alt="">
+                </div>
+                <p class="border-b border-red-600 pb-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo nemo voluptate
+                     eveniet aliquid nobis at sed cupiditate minima nesciunt?</p>
+                <div class="flex justify-end space-x-4 text-xs">
+                    <span> Dec 12 2023</span>
+                    <p><i class="fa-light fa-messages pr-2"></i>12</p>
+                    <p><i class="fa-regular fa-heart pr-2"></i>95</p>
+                </div>
+            </div>
+
+            <div class="grid col-span-2 border border-red-600 py-3 px-2">
+                <div class="flex justify-between border-b  border-red-600">
+                    <h5 class=" pb-2 mb-2">Lorem ipsum dolor sit amet</h5>
+                    <img class="w-8 h-8 rounded-full " src="./img/2.jpg" alt="">
+                </div>
+                <p class="border-b border-red-600 pb-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo nemo voluptate
+                     eveniet aliquid nobis at sed cupiditate minima nesciunt?</p>
+                <div class="items-end text-xs">
+                    <span> Dec 12 2023</span>
+                    <p>12</p>
+                    <p>95</p>
+                </div>
+            </div>
+            <div class="grid col-span-2 border border-red-600 py-3 px-2">
+                <div class="flex justify-between border-b  border-red-600">
+                    <h5 class=" pb-2 mb-2">Lorem ipsum dolor sit amet</h5>
+                    <img class="w-8 h-8 rounded-full " src="./img/2.jpg" alt="">
+                </div>
+                <p class="border-b border-red-600 pb-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo nemo voluptate
+                     eveniet aliquid nobis at sed cupiditate minima nesciunt?</p>
+                <div class="items-end text-xs">
+                    <span> Dec 12 2023</span>
+                    <p>12</p>
+                    <p>95</p>
+                </div>
+            </div>
+            <div class="grid col-span-2 border border-red-600 py-3 px-2">
+                <div class="flex justify-between border-b  border-red-600">
+                    <h5 class=" pb-2 mb-2">Lorem ipsum dolor sit amet</h5>
+                    <img class="w-8 h-8 rounded-full " src="./img/2.jpg" alt="">
+                </div>
+                <p class="border-b border-red-600 pb-2 mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quo nemo voluptate
+                     eveniet aliquid nobis at sed cupiditate minima nesciunt?</p>
+                <div class="items-end text-xs">
+                    <span> Dec 12 2023</span>
+                    <p>12</p>
+                    <p>95</p>
+                </div>
+            </div>
+
+        </div>
+      
+    </div>
+  </section>
+
+  <hr>
+
+   <!--footer-->
+   <footer class="pt-10 bg-black text-white">
+        <div class="container flex gap-10">
+            <div class="flex basis-1/3 items-center flex-col">
+                <h1 class="font-bold text-2xl text-transparent bg-gradient-to-r bg-clip-text from-orange-600 to-zinc-400 font-gemunu  ">seven</h1>
+                
+                <p class="text-xs pt-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laudantium quia odit aliquam, saepe nam nihil molestias quisquam eum fugit.</p>
+            </div>
+
+            <div class="flex basis-1/3 flex-col ">
+                <h4 class="pb-5">contact us</h4>
+                <div class="flex">
+                    <form action="" c>
+                        <input type="email" placeholder="your email" class="placeholder:text-xs bg-transparent-50 p-1 rounded text-black focus:outline-none">
+                        <button type="submit" class="bg-red-600 p-1 rounded"> send</button>
+                    </form>
+                </div>
+              
+            </div>
+            <div class="flex basis-1/3 flex-col">
+                <h4 class="pb-5">about us</h4>
+                <p class="text-xs pb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, autem consectetur. Ipsum illum suscipit vero modi adipisci quam beatae aut ullam saepe fugit. Voluptatum ipsa dolores saepe nam molestiae amet.</p>
+            </div>
+        </div>
+   </footer>
+
+
+
+</body>
+</html>
